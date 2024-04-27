@@ -89,3 +89,9 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+dependency_overrides:
+  flutter_web_plugins:
+    sdk: flutter
+  browser: ^0.10.0
+  js: ^0.6.3
